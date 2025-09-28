@@ -1,0 +1,21 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: linear-gradient(90deg, rgba(27, 77, 97, 0.584) 0%, rgba(45, 64, 161, 0.66) 26%, rgba(65, 46, 110, 0.666) 75%);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2A7B9B;
+  background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(45, 64, 161, 1) 26%, rgba(65, 46, 110, 1) 75%);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(90deg, rgba(19, 53, 67, 0.584) 0%, rgba(25, 35, 87, 0.66) 26%, rgba(37, 26, 63, 0.666) 75%);
+}
